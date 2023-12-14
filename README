@@ -1,0 +1,1 @@
+helm install ae-copilot -f ./ae-copilot/values.yaml ./ae-copilot

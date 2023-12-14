@@ -31,7 +31,6 @@ spec:
         runAsUser: 0
       containers:
         - name: ae-copilot
-          # image: registry.cn-shanghai.aliyuncs.com/liveramp/ae-copilot:{{ .Values.env.new_text }}
           image: registry.cn-shanghai.aliyuncs.com/liveramp/ae-copilot:{{ .Values.aeCopilot.APP_VERSION }}
           imagePullPolicy: Always
           ports:
